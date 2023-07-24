@@ -1,8 +1,26 @@
 body{
-    font-weight: 600;
+    color: white;
+    
 }
 
-span{
-    color:red;
-    font-size: small;
+.sliders{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    
+}
+.sliders::-webkit-scrollbar{
+    display: none;
+     
+}
+.classifi{
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 30px ;
+    box-shadow: 50px gray;
+}
+.detailsPages{
+    padding: 50px;
+    
 }
