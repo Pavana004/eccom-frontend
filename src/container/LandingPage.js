@@ -3,6 +3,7 @@ import Navbar from '../Compontents/Navbar'
 import Home from './Home'
 import Deal from './Deal'
 import Subscribe from './Subscribe'
+import Footer from './Footer'
 
 const LandingPage = () => {
     return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Home />
             <Deal />
             <Subscribe />
+            <Footer/>
 
         </>
     )

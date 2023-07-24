@@ -30,7 +30,7 @@ const RegisterForm = () => {
    
     try {
          
-      const url= "http://localhost:5000/api/register";
+      const url= "https://eccom-backend.vercel.app/api/register";
       await axios.post(url,data);
       Swal.fire('Register Successfully');
       reset();
@@ -38,8 +38,7 @@ const RegisterForm = () => {
 
       
     } catch (error) {
-
-        console.log(error)
+      Swal.fire("Please Check Email and Password")
     }
   };
 

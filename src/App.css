@@ -24,3 +24,15 @@ body{
     padding: 50px;
     
 }
+.LinkStyle{
+  text-decoration: none;
+  color: black;
+  
+}
+.phone{
+    text-decoration: none;
+    color: blue;
+    font-size: small;
+    position: absolute;
+    top: 20px;
+}

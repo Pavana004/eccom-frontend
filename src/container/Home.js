@@ -1,7 +1,7 @@
 import React from 'react';
 import ad1 from "../assets/ad.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {  Pagination, A11y } from 'swiper/modules';
+import { Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -69,25 +69,43 @@ const Home = () => {
             <div className='container' >
                 <Swiper
 
-                    modules={[ Pagination, A11y]}
+                    modules={[Pagination, A11y]}
                     spaceBetween={4}
                     slidesPerView={1}
                     loop={true}
                     pagination={{ clickable: true }}
-                   
+
                 >
-                    <SwiperSlide className='m-2 p-5'>
-                        <img src={ad1} alt='...'style={{width:"100%",}} />
-                         <div>
-                             <h2></h2>
-                         </div>
+                    <SwiperSlide className='m-2 p-5' style={{ position: "relative" }}>
+                        <img src={ad1} alt='...' style={{ width: "100%", }} />
+                        <div className='' style={{ width: "50%", position: "absolute", top: "150px", left: "45%" }}  >
+                            <h2 style={{ fontWeight: "lighter" }}>From students to senior citizens</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>This web portal of </h2>
+                            <h2>"Products and Classifieds”</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>provides it all</h2>
+
+                        </div>
                     </SwiperSlide>
-                    <SwiperSlide className='m-2 p-3'>
-                        <img src={ad1} alt='...'style={{width:"100%",}} />
+                    <SwiperSlide className='m-2 p-5' style={{ position: "relative" }}>
+                        <img src={ad1} alt='...' style={{ width: "100%", }} />
+                        <div className='' style={{ width: "50%", position: "absolute", top: "150px", left: "45%" }}  >
+                            <h2 style={{ fontWeight: "lighter" }}>From students to senior citizens</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>This web portal of </h2>
+                            <h2>"Products and Classifieds”</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>provides it all</h2>
+
+                        </div>
                     </SwiperSlide>
-                    <SwiperSlide className='m-2 p-3'>
-                        <img src={ad1} alt='...'style={{width:"100%",}} />
-                    </SwiperSlide>         
+                    <SwiperSlide className='m-2 p-5' style={{ position: "relative" }}>
+                        <img src={ad1} alt='...' style={{ width: "100%", }} />
+                        <div className='' style={{ width: "50%", position: "absolute", top: "150px", left: "45%" }}  >
+                            <h2 style={{ fontWeight: "lighter" }}>From students to senior citizens</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>This web portal of </h2>
+                            <h2>"Products and Classifieds”</h2>
+                            <h2 style={{ fontWeight: "lighter" }}>provides it all</h2>
+
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
             </div>
 
